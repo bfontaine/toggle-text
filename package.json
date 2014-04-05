@@ -13,11 +13,17 @@
         "type": "git",
         "url": "git://github.com/bfontaine/toggle-text.git"
     },
+    "keywords": [
+        "text"
+    ],
     "author": "Baptiste Fontaine",
     "license": "MIT",
     "readmeFilename": "README.md",
     "devDependencies": {
         "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0.4.0"
+        "grunt-contrib-jshint": "~0.4.0",
+        "mocha": "~1.18.2",
+        "mocha-phantomjs": "~3.3.2",
+        "chai": "*"
     }
 }

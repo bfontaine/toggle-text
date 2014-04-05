@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="language" content="en" />
+    <title>toggle-text tests</title>
+
+    <link rel="stylesheet" href="../lib/mocha.css" media="all" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="../lib/mocha.js"></script>
+    <script src="../lib/chai.js"></script>
+    <script>
+      mocha.ui( 'bdd' ); 
+      mocha.reporter( 'html' );
+    </script>
+    <script src="../toggle-text.js"></script>
+    <script src="test.js"></script>
+    <script>(window.mochaPhantomJS ? mochaPhantomJS : mocha).run();</script> 
+  </body>
+</html>
+
