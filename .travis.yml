@@ -1,0 +1,7 @@
+before_install: npm install -g mocha chai mocha-phantomjs
+language: node_js
+node_js:
+  - 0.8
+script: make test
+notifications:
+  email: false
