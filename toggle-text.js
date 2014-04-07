@@ -19,7 +19,7 @@
 
         new_text = el.getAttribute(attr);
 
-        if ( new_text === "" ) {
+        if ( !new_text ) {
             return;
         }
 
