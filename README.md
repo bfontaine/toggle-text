@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/bfontaine/toggle-text.svg?branch=master)](https://travis-ci.org/bfontaine/toggle-text)
 
-`toggle-text.js` is a lightweight library to make togglable text. It has no
-dependencies and is dead easy to use. This was originally made for a personal
-project but it might be useful to others.
+`toggle-text.js` is a lightweight library (0.3kb minified and gzip’d) to make
+togglable text. It has no dependencies and is dead easy to use. This was
+originally made for a personal project but it might be useful to others.
 
 ## Install
 
