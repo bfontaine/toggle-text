@@ -9,8 +9,11 @@ needs more code and tests to be production-ready.
 
 ## Install
 
-TODO
+Drop [`toggle-text.js`][js] at the bottom of your page. You can bundle it with
+other JavaScript files in any order because it doesn’t have any dependency, and
+rely only on the presence of a `<body>` element.
 
+[js]: https://raw.githubusercontent.com/bfontaine/toggle-text/master/toggle-text.js
 
 ## Usage
 
@@ -30,8 +33,28 @@ When the user click on this `li` element, the `1.2k` text will be replaced by
 
 ## Tests
 
-TODO
+Open `test/client.html` in your browser.
 
 ## Contributing
 
-TODO
+### Code
+
+1. [Fork the repo][help-fork]
+2. Run the tests suite to ensure all tests pass before you change any code
+3. Create a new branch
+4. If you’re fixing a bug, add a test which shows the bug
+5. Write your code
+6. Run the tests suite
+7. [Open a pull-request][help-pr]
+
+[help-fork]: https://help.github.com/articles/fork-a-repo
+[help-pr]: https://help.github.com/articles/creating-a-pull-request
+
+### Bug reports
+
+Don’t know how to fix a bug? Don’t worry, you can still help with a bug report.
+Start by [opening an issue][help-issue], and describe the problem: what should
+happen, what happens instead, the browser you’re using, and all steps required
+for one to reproduce the bug. Thank you!
+
+[help-issue]: https://github.com/bfontaine/toggle-text/issues/new
