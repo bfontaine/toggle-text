@@ -20,8 +20,6 @@
     "license": "MIT",
     "readmeFilename": "README.md",
     "devDependencies": {
-        "grunt": "~0.4.1",
-        "grunt-contrib-jshint": "~0.4.0",
         "mocha": "~1.18.2",
         "mocha-phantomjs": "~3.3.2",
         "chai": "*"
