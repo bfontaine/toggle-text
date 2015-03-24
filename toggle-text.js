@@ -1,4 +1,7 @@
+/**! github.com/bfontaine/toggle-text -- MIT licence */
 (function() {
+
+  function init_toggle_text() {
 
     var ns = "toggle-text",
 
@@ -28,5 +31,15 @@
         el.setAttribute(attr, el.innerText);
         el.innerText = new_text;
     }, false);
+
+  }
+
+  // if jQuery is defined, we use it to run the function when the DOM is ready
+  if (typeof jQuery !== "undefined") {
+    jQuery(init_toggle_text);
+  } else {
+    init_toggle_text();
+  }
+
 
 })();
